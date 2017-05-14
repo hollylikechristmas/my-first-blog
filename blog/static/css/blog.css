@@ -1,13 +1,21 @@
 .page-header {
     background-color: #00cc99;
-    margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    margin-top: 20px;
+    padding: 15px 10px 20px 40px;
+    border-bottom: 5px #000 solid;
+    border-top: 10px #000 solid;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
-    font-size: 36pt;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 42pt;
+    font-weight: 700;
     text-decoration: none;
+}
+
+.page-header h1 a span {
+  font-weight: 400;
 }
 
 .content {
@@ -15,7 +23,11 @@
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico';
+}
+
+body {
+    font-family: 'Josefin-Sans', sans-serif;
 }
 
 .date {
@@ -24,6 +36,7 @@ h1, h2, h3, h4 {
 
 .save {
     float: right;
+    padding-top:
 }
 
 .post-form textarea, .post-form input {
@@ -39,6 +52,10 @@ h1, h2, h3, h4 {
 
 .post {
     margin-bottom: 70px;
+}
+
+.post h1 {
+  margin-bottom: 25px;
 }
 
 .post h1 a, .post h1 a:visited {
